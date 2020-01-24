@@ -1,9 +1,11 @@
 #include "RomanNumbers.h"
 #include <iostream>
+#include <stdexcept>
 using namespace std;
 
-RomanNumbers::RomanNumbers(int numberIn) : number{numberIn}
+RomanNumbers::RomanNumbers(int numberIn)
 {
+	setNumber(numberIn);
 	Converter();
 }
 
@@ -24,7 +26,14 @@ int RomanNumbers::getNumber() const
 
 void RomanNumbers::setNumber(int numberIn)
 {
-	number = numberIn;
+	if (numberIn >= 1 && numberIn <= 3999)
+	{
+		number = numberIn;
+	}
+	else
+	{
+		throw invalid_argument("Roman numerals are valid between 1 and 3999\n");
+	}
 }
 
 void RomanNumbers::Converter()

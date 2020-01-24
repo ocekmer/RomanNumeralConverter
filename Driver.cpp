@@ -6,8 +6,9 @@ void printRomanNumber(RomanNumbers*);
 
 int main()
 {
-	int testNumber{3999};
-	cout << "Test Number: " << testNumber << endl;
+	int testNumber;
+	cout << "Enter a number between 1 and 3999 to get its Roman numeral: ";
+	cin >> testNumber;
 	RomanNumbers rn1{testNumber};
 	RomanNumbers* rn1Ptr{&rn1};
 
