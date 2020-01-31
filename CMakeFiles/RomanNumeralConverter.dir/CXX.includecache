@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ozgur/Git-Projects/RomanNumeralConverter/Driver.cpp
+RomanNumbers.h
+/home/ozgur/Git-Projects/RomanNumeralConverter/RomanNumbers.h
+iostream
+-
+
+/home/ozgur/Git-Projects/RomanNumeralConverter/RomanNumbers.cpp
+RomanNumbers.h
+/home/ozgur/Git-Projects/RomanNumeralConverter/RomanNumbers.h
+iostream
+-
+stdexcept
+-
+
+/home/ozgur/Git-Projects/RomanNumeralConverter/RomanNumbers.h
+vector
+-
+string
+-
+

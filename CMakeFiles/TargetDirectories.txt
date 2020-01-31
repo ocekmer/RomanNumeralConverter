@@ -1,0 +1,3 @@
+/home/ozgur/Git-Projects/RomanNumeralConverter/CMakeFiles/rebuild_cache.dir
+/home/ozgur/Git-Projects/RomanNumeralConverter/CMakeFiles/RomanNumeralConverter.dir
+/home/ozgur/Git-Projects/RomanNumeralConverter/CMakeFiles/edit_cache.dir
